@@ -1,0 +1,22 @@
+# Healthcare Readmission Risk Platform
+# Generated from working environment — pip freeze > requirements.txt
+# Python 3.9+
+
+# Core data science
+numpy>=1.24
+pandas>=1.5
+matplotlib>=3.6
+
+# Machine learning
+scikit-learn>=1.2
+
+# Deep learning (optional — sklearn MLP fallback used if not installed)
+# Uncomment to enable PyTorch layer:
+# torch>=2.0
+
+# Jupyter
+notebook>=6.5
+ipykernel>=6.0
+
+# PDF generation (for synthesis paper)
+# reportlab>=4.0   # optional, for PDF export
